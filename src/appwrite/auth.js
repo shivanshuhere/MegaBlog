@@ -1,7 +1,5 @@
-import { ArrowDownAZ, AudioWaveform, LogIn } from "lucide";
 import conf from "../conf/conf";
 import { Client, Account, ID } from "appwrite";
-import { trackForMutations } from "@reduxjs/toolkit/dist/immutableStateInvariantMiddleware";
 
 export class AuthService {
     client = new Client();
